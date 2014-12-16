@@ -42,6 +42,8 @@ gem 'aws-sdk'
 
 gem 'friendly_id'
 
+gem 'stripe'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
