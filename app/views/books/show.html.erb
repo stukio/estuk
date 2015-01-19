@@ -1,11 +1,12 @@
+<div class="container">
 <div class="row">
 <div class="col-md-6">
 <%= image_tag @book.image.url(:original), class: "img-responsive" %>
 </div>
 <div class="col-md-6">
 <h3><%= @book.name %> by <%= @book.author %></h3>
-<p><%= @book.description %></p>
-<h4 class="text-center">$<%= @book.price.to_f / 100 %></h4>
+<p class="justify"><%= @book.description %></p>
+<h4 class="text-right">$<%= @book.price.to_f / 100 %></h4>
 
 <% if current_user %>
 <%= form_tag buy_path(slug: @book.slug) do %>
@@ -23,5 +24,4 @@
 <% end %>
 </div>
 </div>
-
-
+</div>
