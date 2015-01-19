@@ -1,0 +1,118 @@
+html, html a {
+     text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased;
+     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+// NAVBAR
+
+.navbar {
+font-size: 12px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+a.navbar-brand {
+text-transform: lowercase;
+}
+
+.navbar-default .navbar-toggle {
+border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent;
+border: 1px solid white;
+}
+
+// BUTTONS
+
+.btn {
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: transparent;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+	padding: 15px 30px;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+	padding: 8px 15px;
+}
+
+.btn-xs, .btn-group-xs > .btn {
+padding: 5px 10px;
+font-size: 11px;
+}
+
+// FONTS
+
+p.small {
+font-size: 14px;
+font-weight: 300;
+}
+
+// LOGIN
+
+.jumbotron {
+    border: 4px solid #F66A55;
+    margin-top: 75px;
+}
+
+.jumbotron h2 {
+	font-weight: 600;
+}
+
+p {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+// Landing
+
+body {
+	background: trasparent;
+}
+
+.background-image {
+	background: url("bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin-top: -65px;
+	height: 100%;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.white {
+	color: white;
+}
+
+.icon-bar {
+	background-color: white;
+}
+
+// Dashboard
+
+.dash-box {
+background: #AEAEAE;
+padding-left: 10px;
+padding-top: 1px;
+margin-top: 15px;
+height: 40px;
+}
+
+// Book Show
+
+.justify {
+	text-align: justify !important;
+}
